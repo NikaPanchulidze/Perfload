@@ -12,7 +12,7 @@
 
 - **SOCKET.IO**: Used for managing and caching server state, enabling real-time communication.
 - **EXPRESS**: Enables navigation and routing within the application.
-- **STICKY**: A promise-based HTTP client for making requests to the server.
+- **STICKY**: Ensures that each client connection is consistently routed to the same worker process in a Node.js cluster, allowing for reliable handling of long-lived connections like WebSockets.
 - **CLUSTER-ADAPTER**: A package for synchronizing messages across multiple workers in a Node.js cluster setup, ensuring scalable and efficient communication.
 
 ## Getting Started
