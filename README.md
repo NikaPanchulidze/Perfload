@@ -1,5 +1,5 @@
 
-# Image Searcher
+# Perfload
 
 **Monitor all your devices' hardware resource usage in real-time.**
 
