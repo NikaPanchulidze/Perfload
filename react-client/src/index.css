@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+
+  /* overflow-x: hidden; */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #111111;
+  /* Only works if there is nothing albolutely positioned in relation to body */
+  overflow-x: hidden;
+}
